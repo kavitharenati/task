@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+    body {
+        font-family: Arial;
+        margin: 0;
+        padding:0;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 100vh;
+        background-color: white;
+    }
+    .container {
+        height: 50Px;
+        width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1300px;
+        gap: 20Px;
+    }
+    .card {
+        height: 350Px;
+        width:300Px;
+        background-color: white;
+        border: 2px solid #ddd;
+        border-radius: 2px;
+        box-shadow: 0 2px 4px black;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    .card img {
+        max-width: 70px;
+        margin-bottom:10px;
+    }
+    .card h2 {
+        font-size: 20px;
+        margin: 0 0 10Px;
+    }
+    .card p {
+        font-size: 15px;
+        margin: 0 0 5px;
+    }
+    .card i{
+        color: rgb(34, 210, 245);
+        margin-bottom: 15px;
+    }
+    .card .installs {
+        font-size: 13px;
+        color: grey;
+    }
+    .card a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="./assets/imges/meesho.jpeg"alt="Meesho">
+            <h2>meesho</h2>
+            <p>online shopping platform</p>
+            <p>Meesho is an online shopping platform owned by the Indian company Fashnear Technologies Private Limited. It is an online marketplace that facilitates trade between suppliers, resellers and customers</p>
+            <div class="installs">Installed 300 times</div>
+            <a href="#">View ></a>
+        </div>
+        <div class="card">
+            <img src="./assets/imges/flipkart.jpeg" alt="Flipkart">
+            <h2>flipkat</h2>
+            <p>online shopping platform</p>
+            <p>Flipkart Private Limited is an Indian e-commerce company, headquartered in Bangalore, and incorporated in Singapore as a private limited company</p>
+            <div class="installs">Installed 1000 times</div>
+            <a href="#">View ></a> 
+        </div>
+        <div class="card">
+            <img src="./assets/imges/amazon.jpeg" alt="amazon">
+            <h2>Amazon</h2>
+            <p>Online Shopping Platform</p>
+            <p>Amazon.com, Inc., doing business as Amazon, is an American multinational technology company, engaged in e-commerce, cloud computing</p>
+            <div class="installs">Installed 980 times</div>
+            <a href="#">View ></a>
+            
+        </div>
+        <div class="card">
+            <img src="./assets/imges/myntra.jpeg"alt="Myntra">
+            <h2>Myntra</h2>
+            <p>online shopping platform</p>
+            <p>Myntra is an Indian fashion e-commerce company headquartered in Bengaluru, Karnataka, India. The company was founded in 2007-2008 to sell personalized gift items. In May 2014,</p>
+            <div class="installs">Installed 900 times</div>
+            <a href="#">View ></a>
+            
+        </div>
+        <div class="card">
+            <img src="./assets/imges/snap.jpeg "alt="Snapdeal">
+            <h2>Snapdeal</h2>
+            <p>online shopping platform</p>
+            <p>Snapdeal is an Indian e-commerce company, based in New Delhi, India. It was founded in February 2010 by Kunal Bahl and Rohit Bansal.</p>
+            <div class="installs">Installed 970 times</div>
+            <a href="#">View ></a>
+            
+        </div>
+        <div class="card">
+            <img src="./assets/imges/shop.jpeg"alt="shopsy">
+            <h2>shopsy</h2>
+            <p>online shopping platform </p>
+            <p>Shopsy, your one-stop online shopping platform for a wide range of products to elevate your lifestyle. From trendy clothing and fashion accessories to beauty and wellness essentials, home utility items, electronic gadgets, toys, stationery, and more, Shopsy has it all.</p>
+            <div class="installs">Installed 120 times</div>
+            <a href="#">View ></a>
+        </div>
+    </div>
+</body>
+</html>
